@@ -13,10 +13,6 @@ export default function ProfileUpload() {
         reader.readAsDataURL(selectedImage);
     };
 
-    const handleSubmit = () => {
-
-    }
-
     return (
         <section className="profile-upload-container">
             <Button
@@ -33,7 +29,6 @@ export default function ProfileUpload() {
             <div className="image-container">
                 {image?.length && <img src={image} />}
             </div>
-            <Button onClick={handleSubmit}>Submit</Button>
         </section>
     )
 }

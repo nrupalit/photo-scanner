@@ -1,7 +1,13 @@
-.dashbord-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+.dashbord {
+    &-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    &-submit {
+        width: 100%;
+        margin-top: 10px;
+    }
 }
 
 .profile-upload-container {
@@ -11,7 +17,7 @@
     justify-content: center;
     .image-container {
         width: 40vw;
-        height: 80vh;
+        height: 50vh;
         border: 1px solid black;
         margin-top: 10px;
         img {
