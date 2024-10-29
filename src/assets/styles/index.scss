@@ -1,0 +1,23 @@
+.dashbord-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile-upload-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .image-container {
+        width: 40vw;
+        height: 80vh;
+        border: 1px solid black;
+        margin-top: 10px;
+        img {
+            height: inherit;
+            width: inherit;
+            object-fit: contain;
+        }
+    }
+}
